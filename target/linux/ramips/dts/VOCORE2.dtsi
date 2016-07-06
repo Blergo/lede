@@ -1,0 +1,17 @@
+#include "mt7628an.dtsi"
+
+/ {
+	compatible = "VoCore2", "ralink,rt5350-soc";
+	model = "VoCore2";
+
+	gpio-export {
+		compatible = "gpio-export";
+		#size-cells = <0>;
+
+		gpio0 {
+			gpio-export,name = "gpio0";
+			gpio-export,direction_may_change = <1>;
+			gpios = <&gpio0 0 0>;
+		};
+ }
+}
