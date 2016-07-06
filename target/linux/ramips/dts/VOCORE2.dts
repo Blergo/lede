@@ -1,6 +1,6 @@
 /dts-v1/;
 
-#include "mt7628an.dtsi"
+#include "VOCORE2.dtsi"
 
 / {
 	compatible = "vocore,vocore2", "mediatek,mt7628an-soc";
